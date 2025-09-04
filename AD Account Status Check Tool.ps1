@@ -90,7 +90,7 @@ $form.Controls.Add($resultsBox)
 
 # --- Footer ---
 $footerLabel = New-Object System.Windows.Forms.Label
-$footerLabel.Text = "By Liam M, V1.0.0"
+$footerLabel.Text = "By HackTheScript001, V1.0.0"
 $footerLabel.AutoSize = $true
 $footerLabel.Font = New-Object System.Drawing.Font("Segoe UI", 9, [System.Drawing.FontStyle]::Italic)
 $footerLabel.ForeColor = [System.Drawing.ColorTranslator]::FromHtml("#004080")
@@ -145,3 +145,4 @@ $checkButton.Add_Click({
 
 # --- Run the Form ---
 [void]$form.ShowDialog()
+
